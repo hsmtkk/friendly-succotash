@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: friendly-succotash
+spec:
+  selector:
+    app: friendly-succotash
+  ports:
+    - protocol: TCP
+      port: 80
